@@ -50,8 +50,6 @@ export const psdContactsReducer = persistReducer(
 
 export const { addContact, deleteContact } = contactsSlice.actions;
 
-// fn for checking name
-
 const findName = (data, name) => {
   if (data.length === 0) return;
 

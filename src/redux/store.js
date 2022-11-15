@@ -9,7 +9,7 @@ import {
   REGISTER,
 } from 'redux-persist';
 
-import { psdContactsReducer, contactsReducer } from './contactsSlice';
+import { psdContactsReducer} from './contactsSlice';
 import { filterReducer } from './filterSlice';
 
 export const store = configureStore({
